@@ -30,6 +30,7 @@ The REST API endpoint takes dynamic inputs, parses them, performs string manipul
 
 #### Project Structure:
 
+```
 src
 └── main
     ├── java
@@ -46,7 +47,7 @@ src
     └── resources
         ├── application.properties
         └── data.sql
-
+```
 
 ### 4. Testing Strategy
 
