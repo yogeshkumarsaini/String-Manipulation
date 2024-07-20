@@ -32,20 +32,21 @@ The REST API endpoint takes dynamic inputs, parses them, performs string manipul
 
 src
 └── main
-├── java
-│ └── com
-│ └── test
-│ ├── stringManipulation
-│ │ ├── StringManipulationApplication.java
-│ │ ├── controller
-│ │ │ └── JsonController.java
-│ │ ├── model
-│ │ │ └── JsonModel.java
-│ │ └── repository
-│ │ └── JsonModelRepository.java
-└── resources
-├── application.properties
-└── data.sql
+    ├── java
+    │   └── com
+    │       └── test
+    │           └── stringManipulation
+    │               ├── StringManipulationApplication.java
+    │               ├── controller
+    │               │   └── JsonController.java
+    │               ├── model
+    │               │   └── JsonModel.java
+    │               └── repository
+    │                   └── JsonModelRepository.java
+    └── resources
+        ├── application.properties
+        └── data.sql
+
 
 ### 4. Testing Strategy
 
